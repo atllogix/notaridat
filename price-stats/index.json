@@ -1,0 +1,167 @@
+{
+  "builtAt": "2026-09-06T22:36:47.447Z",
+  "today": "2026-09-06",
+  "thresholds": {
+    "floorAbsCents": 100,
+    "floorPct": 0.01,
+    "confCoverageDays": 21,
+    "atlCoverageDays": 45,
+    "atlMinChanges": 8,
+    "trustedFrom": "2026-08-30",
+    "sparkDays": 30
+  },
+  "sitewideEvents": [
+    {
+      "domain": "scentsangel.com",
+      "ratio": 0.874,
+      "pct": -12.6,
+      "listings": 2995,
+      "share": 65.1,
+      "since": "2026-08-30"
+    },
+    {
+      "domain": "fragrancelord.com",
+      "ratio": 0.876,
+      "pct": -12.4,
+      "listings": 1684,
+      "share": 66.6,
+      "since": "2026-08-30"
+    }
+  ],
+  "listings": 75930,
+  "schema": {
+    "_shape": "Shards hold in-stock listings only, since search-index.json carries nothing else to render them with. Prepend the shard's urlPrefix to `u` to get the join key back.",
+    "_flat": "A record with no `sp` never moved past the floor and is flat at `p` from `fs` onward: atl, ath and med all equal p, and atlAt is fs. Derive them rather than treating them as missing.",
+    "u": "url with the shard urlPrefix removed -- join key against search-index.json",
+    "p": "current price, integer cents",
+    "pv": "previous different price, cents (absent if never moved past the floor)",
+    "ca": "ISO date of that change",
+    "d7": "percent change over 7d (absent when the window is not covered)",
+    "d30": "percent change over 30d",
+    "d90": "percent change over 90d",
+    "atl": "all-time low, cents",
+    "atlAt": "ISO date of it",
+    "ath": "all-time high, cents",
+    "med": "median step-held price over medDays",
+    "medDays": "days that median covers",
+    "n": "price changes clearing the floor -- NOT an observation count",
+    "fs": "ISO date first seen",
+    "cd": "coverage days, firstSeen to today",
+    "fl": "flags bitfield: 1 thin, 2 atlEligible, 4 basisMismatch, 8 sparseBefore, 16 inStock",
+    "sp": "sparkline, run-length encoded [[cents|null, days], ...], oldest first, step-held"
+  },
+  "shards": [
+    {
+      "domain": "jomashop.com",
+      "file": "jomashop.com.json",
+      "urlPrefix": "https://www.jomashop.com/",
+      "listings": 26023,
+      "bytes": 4582194
+    },
+    {
+      "domain": "fragrancenet.com",
+      "file": "fragrancenet.com.json",
+      "urlPrefix": "https://www.fragrancenet.com/",
+      "listings": 14742,
+      "bytes": 2003190
+    },
+    {
+      "domain": "scentsangel.com",
+      "file": "scentsangel.com.json",
+      "urlPrefix": "https://scentsangel.com/products/",
+      "listings": 4128,
+      "bytes": 998835
+    },
+    {
+      "domain": "maxaroma.com",
+      "file": "maxaroma.com.json",
+      "urlPrefix": "https://www.maxaroma.com/",
+      "listings": 3346,
+      "bytes": 487531
+    },
+    {
+      "domain": "beautyliv.com",
+      "file": "beautyliv.com.json",
+      "urlPrefix": "https://www.beautyliv.com/product/",
+      "listings": 3450,
+      "bytes": 400630
+    },
+    {
+      "domain": "venbafragrance.com",
+      "file": "venbafragrance.com.json",
+      "urlPrefix": "https://venbafragrance.com/products/",
+      "listings": 2022,
+      "bytes": 323813
+    },
+    {
+      "domain": "fragrancelord.com",
+      "file": "fragrancelord.com.json",
+      "urlPrefix": "https://fragrancelord.com/products/",
+      "listings": 764,
+      "bytes": 170747
+    },
+    {
+      "domain": "zgoperfumery.com",
+      "file": "zgoperfumery.com.json",
+      "urlPrefix": "https://zgoperfumery.com/products/",
+      "listings": 1483,
+      "bytes": 163983
+    },
+    {
+      "domain": "theparfums.com",
+      "file": "theparfums.com.json",
+      "urlPrefix": "https://theparfums.com/products/",
+      "listings": 1585,
+      "bytes": 266472
+    },
+    {
+      "domain": "perfumedefrance.com",
+      "file": "perfumedefrance.com.json",
+      "urlPrefix": "https://perfumedefrance.com/products/",
+      "listings": 1152,
+      "bytes": 171579
+    },
+    {
+      "domain": "fragrapedia.com",
+      "file": "fragrapedia.com.json",
+      "urlPrefix": "https://fragrapedia.com/products/",
+      "listings": 741,
+      "bytes": 87662
+    },
+    {
+      "domain": "ediscountperfumes.com",
+      "file": "ediscountperfumes.com.json",
+      "urlPrefix": "https://ediscountperfumes.com/",
+      "listings": 557,
+      "bytes": 90026
+    },
+    {
+      "domain": "fragrance-nevaeh.com",
+      "file": "fragrance-nevaeh.com.json",
+      "urlPrefix": "https://fragrance-nevaeh.com/products/",
+      "listings": 107,
+      "bytes": 10279
+    },
+    {
+      "domain": "microperfumes.com",
+      "file": "microperfumes.com.json",
+      "urlPrefix": "https://microperfumes.com/products/",
+      "listings": 116,
+      "bytes": 11287
+    },
+    {
+      "domain": "fragrancesline.com",
+      "file": "fragrancesline.com.json",
+      "urlPrefix": "https://fragrancesline.com/products/",
+      "listings": 35,
+      "bytes": 4276
+    },
+    {
+      "domain": "decantsrus.com",
+      "file": "decantsrus.com.json",
+      "urlPrefix": "https://decantsrus.com/products/",
+      "listings": 37,
+      "bytes": 4173
+    }
+  ]
+}
