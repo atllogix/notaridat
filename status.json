@@ -1,0 +1,54 @@
+{
+  "builtAt": "2026-09-15T21:33:43.247Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "lastRun": "2026-09-15T21:22:59.964Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "lastRun": "2026-09-15T21:30:43.320Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "lastRun": "2026-09-15T21:33:43.006Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "lastRun": "2026-09-15T21:15:22.860Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "lastRun": "2026-09-15T20:31:58.340Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "lastRun": "2026-09-15T21:19:40.345Z",
+      "lastError": null,
+      "lastErrorAt": null
+    }
+  ],
+  "maintenance": null
+}
