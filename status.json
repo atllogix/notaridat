@@ -1,0 +1,54 @@
+{
+  "builtAt": "2026-09-19T00:38:25.659Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "lastRun": "2026-09-19T00:02:19.541Z",
+      "lastError": "ENOSPC: no space left on device, write",
+      "lastErrorAt": "2026-09-19T00:37:43.796Z"
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "lastRun": "2026-09-19T00:12:07.000Z",
+      "lastError": "ENOSPC: no space left on device, write",
+      "lastErrorAt": "2026-09-19T00:28:46.950Z"
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "lastRun": "2026-09-19T00:34:34.930Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "lastRun": "2026-09-18T06:25:54.518Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "lastRun": "2026-09-18T23:26:50.353Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "lastRun": "2026-09-19T00:38:25.524Z",
+      "lastError": null,
+      "lastErrorAt": null
+    }
+  ],
+  "maintenance": null
+}
