@@ -1,0 +1,76 @@
+{
+  "builtAt": "2026-09-26T21:27:05.299Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "domain": null,
+      "paused": null,
+      "lastRun": "2026-09-26T21:27:04.927Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "domain": "jomashop.com",
+      "paused": "Jomashop updates are paused until further notice, so its listings here may be out of date.",
+      "lastRun": "2026-09-22T18:49:56.952Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "domain": "beautyliv.com",
+      "paused": null,
+      "lastRun": "2026-09-26T21:14:59.472Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "domain": "maxaroma.com",
+      "paused": null,
+      "lastRun": "2026-09-26T21:03:13.798Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "domain": "fragrancenet.com",
+      "paused": null,
+      "lastRun": "2026-09-26T20:40:33.236Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "domain": "ediscountperfumes.com",
+      "paused": null,
+      "lastRun": "2026-09-26T21:19:24.500Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "fragranceshop",
+      "label": "FragranceShop",
+      "intervalMin": 20,
+      "domain": "fragranceshop.com",
+      "paused": null,
+      "lastRun": "2026-09-26T21:21:44.568Z",
+      "lastError": null,
+      "lastErrorAt": null
+    }
+  ],
+  "maintenance": null
+}
