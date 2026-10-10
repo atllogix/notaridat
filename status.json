@@ -1,0 +1,86 @@
+{
+  "builtAt": "2026-10-10T23:37:17.176Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "domain": null,
+      "paused": null,
+      "lastRun": "2026-10-10T23:37:16.666Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "domain": "jomashop.com",
+      "paused": "Jomashop is down.",
+      "lastRun": "2026-09-22T18:49:56.952Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "domain": "beautyliv.com",
+      "paused": null,
+      "lastRun": "2026-10-10T23:34:18.609Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "domain": "maxaroma.com",
+      "paused": null,
+      "lastRun": "2026-10-10T21:34:48.347Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "domain": "fragrancenet.com",
+      "paused": null,
+      "lastRun": "2026-10-10T20:54:41.912Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "domain": "ediscountperfumes.com",
+      "paused": null,
+      "lastRun": "2026-10-10T23:19:23.100Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "fragranceshop",
+      "label": "FragranceShop",
+      "intervalMin": 20,
+      "domain": "fragranceshop.com",
+      "paused": null,
+      "lastRun": "2026-10-10T23:21:52.504Z",
+      "lastError": null,
+      "lastErrorAt": null
+    },
+    {
+      "key": "ecosmetics",
+      "label": "eCosmetics",
+      "intervalMin": 60,
+      "domain": "ecosmetics.com",
+      "paused": null,
+      "lastRun": "2026-10-10T22:44:52.733Z",
+      "lastError": null,
+      "lastErrorAt": null
+    }
+  ],
+  "maintenance": null
+}
