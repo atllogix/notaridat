@@ -1,0 +1,102 @@
+{
+  "builtAt": "2026-11-07T17:22:25.705Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "domain": null,
+      "paused": null,
+      "lastRun": "2026-11-07T17:22:24.774Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": "3 shop(s) skipping: venbafragrance.com for 1135m (read 0 product(s) but not the whole catalogue, and a partial list saved as state reappears as a flood of fake New Arrivals next cycle.); theparfums.com for 1135m (read 0 product(s) but not the whole catalogue, and a partial list saved as state reappe",
+      "skipSince": "2026-11-06T22:27:04.616Z"
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "domain": "jomashop.com",
+      "paused": "Jomashop is down.",
+      "lastRun": "2026-09-22T18:49:56.952Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "domain": "beautyliv.com",
+      "paused": null,
+      "lastRun": "2026-11-07T17:13:39.852Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "domain": "maxaroma.com",
+      "paused": null,
+      "lastRun": "2026-11-07T11:23:34.105Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "domain": "fragrancenet.com",
+      "paused": null,
+      "lastRun": "2026-11-07T15:31:59.083Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "domain": "ediscountperfumes.com",
+      "paused": null,
+      "lastRun": "2026-11-07T17:18:25.408Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "fragranceshop",
+      "label": "FragranceShop",
+      "intervalMin": 20,
+      "domain": "fragranceshop.com",
+      "paused": null,
+      "lastRun": "2026-11-07T17:21:31.611Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "ecosmetics",
+      "label": "eCosmetics",
+      "intervalMin": 60,
+      "domain": "ecosmetics.com",
+      "paused": null,
+      "lastRun": "2026-11-07T16:24:52.089Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    }
+  ],
+  "maintenance": null
+}
