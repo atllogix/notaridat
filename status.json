@@ -1,0 +1,102 @@
+{
+  "builtAt": "2026-11-14T15:07:28.788Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "domain": null,
+      "paused": null,
+      "lastRun": "2026-11-14T15:07:27.740Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": "1 shop(s) skipping: venbafragrance.com for 11080m (read 0 product(s) but not the whole catalogue, and a partial list saved as state reappears as a flood of fake New Arrivals next cycle.)",
+      "skipSince": "2026-11-06T22:27:04.616Z"
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "domain": "jomashop.com",
+      "paused": "Jomashop is down.",
+      "lastRun": "2026-09-22T18:49:56.952Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "domain": "beautyliv.com",
+      "paused": null,
+      "lastRun": "2026-11-14T14:53:12.854Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "domain": "maxaroma.com",
+      "paused": null,
+      "lastRun": "2026-11-14T13:26:59.031Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "domain": "fragrancenet.com",
+      "paused": null,
+      "lastRun": "2026-11-14T12:08:03.248Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "domain": "ediscountperfumes.com",
+      "paused": null,
+      "lastRun": "2026-11-14T14:58:27.759Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "fragranceshop",
+      "label": "FragranceShop",
+      "intervalMin": 20,
+      "domain": "fragranceshop.com",
+      "paused": null,
+      "lastRun": "2026-11-14T15:01:11.324Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "ecosmetics",
+      "label": "eCosmetics",
+      "intervalMin": 60,
+      "domain": "ecosmetics.com",
+      "paused": "eCosmetics is down.",
+      "lastRun": "2026-11-11T14:25:47.220Z",
+      "lastError": "ecos simple page 1: status 404",
+      "lastErrorAt": "2026-11-13T01:39:17.492Z",
+      "lastSkip": null,
+      "skipSince": null
+    }
+  ],
+  "maintenance": null
+}
