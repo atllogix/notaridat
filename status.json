@@ -1,0 +1,114 @@
+{
+  "builtAt": "2026-11-21T13:01:56.883Z",
+  "monitors": [
+    {
+      "key": "shopify",
+      "label": "Shopify shops",
+      "intervalMin": 5,
+      "domain": null,
+      "paused": null,
+      "lastRun": "2026-11-21T13:01:55.937Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "jomashop",
+      "label": "Jomashop",
+      "intervalMin": 20,
+      "domain": "jomashop.com",
+      "paused": "Jomashop is down.",
+      "lastRun": "2026-09-22T18:49:56.952Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "beautyliv",
+      "label": "BeautyLIV",
+      "intervalMin": 20,
+      "domain": "beautyliv.com",
+      "paused": null,
+      "lastRun": "2026-11-21T12:52:37.476Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "maxaroma",
+      "label": "MaxAroma",
+      "intervalMin": 90,
+      "domain": "maxaroma.com",
+      "paused": null,
+      "lastRun": "2026-11-19T11:31:48.785Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": "[maxaroma] SKIPPED this cycle — read 1494 listing(s) against a state holding 3470. Losing 1976 in one cycle is a throttled crawl, not a delisting.",
+      "skipSince": "2026-11-19T13:45:11.155Z"
+    },
+    {
+      "key": "fragrancenet",
+      "label": "FragranceNet",
+      "intervalMin": 240,
+      "domain": "fragrancenet.com",
+      "paused": null,
+      "lastRun": "2026-11-19T13:53:27.681Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "edp",
+      "label": "eDiscount Perfumes",
+      "intervalMin": 20,
+      "domain": "ediscountperfumes.com",
+      "paused": null,
+      "lastRun": "2026-11-21T12:57:57.989Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "fragranceshop",
+      "label": "FragranceShop",
+      "intervalMin": 20,
+      "domain": "fragranceshop.com",
+      "paused": null,
+      "lastRun": "2026-11-21T12:41:18.100Z",
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "ecosmetics",
+      "label": "eCosmetics",
+      "intervalMin": 60,
+      "domain": "ecosmetics.com",
+      "paused": "eCosmetics is down.",
+      "lastRun": "2026-11-11T14:25:47.220Z",
+      "lastError": "ecos simple page 1: status 404",
+      "lastErrorAt": "2026-11-13T01:39:17.492Z",
+      "lastSkip": null,
+      "skipSince": null
+    },
+    {
+      "key": "shop:venbafragrance.com",
+      "label": "Venba Fragrance",
+      "intervalMin": 5,
+      "domain": "venbafragrance.com",
+      "paused": "Venba Fragrance is down.",
+      "lastRun": null,
+      "lastError": null,
+      "lastErrorAt": null,
+      "lastSkip": null,
+      "skipSince": null
+    }
+  ],
+  "maintenance": null
+}
